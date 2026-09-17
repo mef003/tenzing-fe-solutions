@@ -725,3 +725,24 @@ svg {
     padding: 16px 18px;
   }
 }
+@media (max-width: 768px) {
+  .contact-hero h1,
+  .contact-page h1,
+  .contact h1 {
+    font-size: 2.25rem !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.02em;
+    max-width: 100%;
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero h1,
+  .contact-page h1,
+  .contact h1 {
+    font-size: 2rem !important;
+  }
+}
