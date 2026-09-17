@@ -31,3 +31,47 @@ Create a free Formspree form, copy your form endpoint, and replace the placehold
 - Add a real hero image if desired.
 - Add About, Case Studies, Insights and Privacy pages.
 - Connect a custom domain later.
+/* Final mobile hero refinement */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .hero h1,
+  .hero-title,
+  h1 {
+    font-size: clamp(2.7rem, 11vw, 3.8rem);
+    line-height: 1.03;
+    letter-spacing: -0.025em;
+    margin-bottom: 28px;
+  }
+
+  .hero p,
+  .hero-copy,
+  .hero-description {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    margin-bottom: 30px;
+  }
+
+  .hero .eyebrow,
+  .eyebrow,
+  .kicker,
+  .overline {
+    font-size: 0.82rem;
+    letter-spacing: 0.28em;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .hero .btn,
+  .hero a.btn,
+  .cta-button {
+    width: 100%;
+    text-align: center;
+    padding: 16px 18px;
+  }
+}
