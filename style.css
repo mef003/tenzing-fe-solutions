@@ -1,4 +1,4 @@
-/* Tenzing FE Solutions Ltd - Version 1 */
+i/* Tenzing FE Solutions Ltd - Version 1 */
 
 :root {
   --black: #0b0b0b;
@@ -825,6 +825,49 @@ svg {
   .contact-details a[href^="mailto:"],
   a[href^="mailto:"] {
     font-size: 1.25rem !important;
+  }
+}/* FINAL MOBILE TIDY-UP */
+
+@media (max-width: 768px) {
+
+  /* Contact email */
+  .contact-details a[href^="mailto:"],
+  a[href^="mailto:"] {
+    font-size: 1.15rem !important;
+    line-height: 1.3 !important;
+    display: block !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+  }
+
+  /* Homepage hero heading */
+  .hero h1,
+  .hero-title,
+  .home-hero h1 {
+    font-size: 3rem !important;
+    line-height: 1.02 !important;
+    max-width: 100% !important;
+  }
+
+  /* Homepage brand block */
+  .hero,
+  .home-hero {
+    overflow: hidden !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .contact-details a[href^="mailto:"],
+  a[href^="mailto:"] {
+    font-size: 1rem !important;
+  }
+
+  .hero h1,
+  .hero-title,
+  .home-hero h1 {
+    font-size: 2.6rem !important;
   }
 }
 
