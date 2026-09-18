@@ -745,4 +745,86 @@ svg {
   .contact h1 {
     font-size: 2rem !important;
   }
+}/* =================================
+   CONTACT PAGE - FINAL MOBILE FIX
+   ================================= */
+
+@media (max-width: 768px) {
+
+  /* Compact logo/header */
+  .site-header {
+    min-height: auto !important;
+    padding: 18px 22px !important;
+  }
+
+  .site-header .brand {
+    width: auto !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+
+  .site-header .site-logo {
+    width: 190px !important;
+    max-width: 190px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  /* Contact page spacing */
+  .contact-wrap {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 55px !important;
+  }
+
+  /* Let's start a conversation */
+  .contact-wrap h1 {
+    font-size: 2.55rem !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.03em !important;
+    max-width: 100% !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+  }
+
+  .contact-wrap h1 span {
+    white-space: normal !important;
+  }
+
+  /* Introductory paragraph */
+  .contact-intro {
+    font-size: 1.15rem !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Email address in contact details */
+  .contact-details a[href^="mailto:"],
+  a[href^="mailto:"] {
+    font-size: 1.45rem !important;
+    line-height: 1.2 !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
 }
+
+@media (max-width: 480px) {
+
+  .site-header .site-logo {
+    width: 165px !important;
+    max-width: 165px !important;
+  }
+
+  .contact-wrap h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .contact-details a[href^="mailto:"],
+  a[href^="mailto:"] {
+    font-size: 1.25rem !important;
+  }
+}
+
